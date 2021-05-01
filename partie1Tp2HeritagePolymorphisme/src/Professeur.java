@@ -1,69 +1,53 @@
 public class Professeur extends Personne implements Enseignant{
 
-    private String nom;
     private Integer numeroSomme;
-    private String email;
     private String grade;
     private Module[] cours = new Module[4];
 
 
-    public Professeur(String nom, Integer numeroSomme, String email, String grade) {
-        this.nom = nom;
+    public Professeur(String nom, Integer numeroSomme, String email, String grade,Module[] cours) {
+        super(nom,email);
         this.numeroSomme = numeroSomme;
-        this.email = email;
         this.grade = grade;
+        this.cours = cours;
     }
 
     public Professeur() {
-        this("",0,"","");
-    }
-
-    public String getNom() {
-        return nom;
+        super("","");
+        this.numeroSomme = 0;
+        this.grade = "";
     }
 
     public Integer getNumeroSomme() {
         return numeroSomme;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
     public String getGrade() {
         return grade;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
     }
 
     public void setNumeroSomme(Integer numeroSomme) {
         this.numeroSomme = numeroSomme;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public void setGrade(String grade) {
         this.grade = grade;
     }
 
-    public void afficheInfoProfesseur() {
+    public void afficherInfo() {
 
         System.out.println("Info Professeur : ");
-        System.out.println("nom = "+nom);
+        System.out.println("nom = "+getNom());
         System.out.println("numero Somme = "+numeroSomme);
-        System.out.println("email = "+email);
+        System.out.println("email = "+getEmail());
         System.out.println("grade = "+grade);
         System.out.println("---------------");
     }
 
     public double getChargeHoraire() {
         double chargeHoraire=0;
-        for(int i=0;i<cours.length;i++) {
-            chargeHoraire += cours[i].getChargeHoraireModule();
+        for(Module item : cours) {
+            chargeHoraire += item.getChargeHoraireModule();
         }
         return chargeHoraire;
     }

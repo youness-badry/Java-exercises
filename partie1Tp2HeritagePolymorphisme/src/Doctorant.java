@@ -4,7 +4,14 @@ public class Doctorant extends Etudiant implements Enseignant{
     private Professeur[] encadrant = new Professeur[2];
     private Module[] cours = new Module[2];
 
+    public Doctorant(String nom,Integer numeroEtudiant,String email,String sujetThese,Professeur[] encadrant,Module[] cours) {
+        super(nom,numeroEtudiant,email);
+        this.sujetThese =sujetThese;
+        this.encadrant = encadrant;
+        this.cours = cours;
+    }
     public Doctorant() {
+        super();
         this.sujetThese = "";
     }
     public String getSujetThese() {
@@ -30,11 +37,13 @@ public class Doctorant extends Etudiant implements Enseignant{
     }
     public double getChargeHoraire() {
         double chargeHoraire=0;
-        for(int i=0;i<cours.length;i++) {
-            chargeHoraire += cours[i].getChargeHoraireModule();
+        for(Module item : cours) {
+            chargeHoraire += item.getChargeHoraireModule();
         }
         return chargeHoraire;
     }
+
+
     public double getVacations() {
         double vacation;
         if(getChargeHoraire() <=32) {
@@ -45,6 +54,10 @@ public class Doctorant extends Etudiant implements Enseignant{
             vacation= (400*getChargeHoraire())*(1-0.34)+(600*heuresSup)*(1-0.17);
         }
         return vacation;
+    }
+    public void afficherInfo() {
+        System.out.println("Info Doctorant : ");
+        super.afficherInfo();
     }
 
 

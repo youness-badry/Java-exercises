@@ -71,7 +71,7 @@ public class Module {
         this.professeurEnseignant = professeurEnseignant;
     }
 
-    public void afficheInfoModule() {
+    public void afficherInfo() {
 
         System.out.println("Info Module : ");
         System.out.println("libelle = " + libelle);
@@ -80,7 +80,7 @@ public class Module {
         System.out.println("nbrHeuresTD = " + nbrHeuresTD);
         System.out.println("nbrHeuresTP = " + nbrHeuresTP);
         System.out.println("professeur Enseignant = ");
-        professeurEnseignant.afficheInfoProfesseur();
+        professeurEnseignant.afficherInfo();
 
     }
     public double getChargeHoraireModule() {

@@ -21,20 +21,20 @@ public class Semestre {
     public void setModules(Module module, int i) {
         this.modules[i] = module;
     }
-    public void afficheInfoSemestre() {
+    public void afficherInfo() {
         System.out.println("Info Semestre : ");
         System.out.println("numero = " + numero);
         System.out.println("les modules de semestre = ");
         for(int i=0;i<modules.length;i++) {
             System.out.println("Module "+i);
-            modules[i].afficheInfoModule();
+            modules[i].afficherInfo();
         }
     }
     public double getChargeHoraireSemestre() {
 
         double chargeHoraireSemestre=0;
-        for(int i=0;i<modules.length;i++) {
-            chargeHoraireSemestre+=modules[i].getChargeHoraireModule();
+        for(Module item : modules) {
+            chargeHoraireSemestre+=item.getChargeHoraireModule();
         }
         return chargeHoraireSemestre;
     }

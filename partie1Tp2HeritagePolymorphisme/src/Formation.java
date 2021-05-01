@@ -31,24 +31,23 @@ public class Formation {
         this.semestres[i] = semestre;
     }
 
-    public void afficheInfoFormation() {
+    public void afficherInfo() {
 
         System.out.println("Info Formation : ");
         System.out.println("intitule = " + intitule);
         System.out.println("professeur responsable = ");
-        professeurResponsable.afficheInfoProfesseur();
+        professeurResponsable.afficherInfo();
         System.out.println("les semestres de la formation = ");
-        for(int i=0;i<semestres.length;i++) {
-            System.out.println("Semestre "+i);
-            semestres[i].afficheInfoSemestre();
+        for(Semestre item : semestres) {
+            item.afficherInfo();
         }
 
     }
 
     public double getChargeHoraireFormation() {
         double chargeHoraireFormation=0;
-        for(int i=0;i<semestres.length;i++) {
-            chargeHoraireFormation+=semestres[i].getChargeHoraireSemestre();
+        for(Semestre item : semestres) {
+            chargeHoraireFormation+=item.getChargeHoraireSemestre();
         }
         return chargeHoraireFormation;
     }
