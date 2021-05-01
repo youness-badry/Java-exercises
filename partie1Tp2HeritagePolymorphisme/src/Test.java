@@ -7,7 +7,7 @@ public class Test {
             //String nom,Integer numeroEtudiant,String email,String sujetThese,Professeur[] encadrant,Module[] cours
             //Module(String libelle, Integer coefficient, Integer nbrHeuresCours, Integer nbrHeuresTD, Integer nbrHeuresTP, Professeur professeurEnseignant)
 
-            Module[] modulesProf = new Module[4];
+           /* Module[] modulesProf = new Module[4];
             Professeur prof1 =new Professeur("LAJKI",100,"lajki@gmail.com","PA",modulesProf);
             Professeur prof2 =new Professeur("SADIQ",104,"sadiq@gmail.com","PES",modulesProf);
             Module module1 = new Module("Programmation Java",7,20,10,9,prof1);
@@ -36,7 +36,7 @@ public class Test {
 
             ufr.afficher();
             double ch = ufr.getVacations();
-            System.out.println("la charge financiere totale de l'UFR = "+ch+" DH");
+            System.out.println("la charge financiere totale de l'UFR = "+ch+" DH");*/
 
 
     }
