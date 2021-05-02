@@ -6,7 +6,7 @@ public class Doctorant extends Etudiant implements Enseignant{
 
     private String sujetThese;
     private Professeur[] encadrant = new Professeur[2];
-    private HashMap<String/*Annee*/, ArrayList<Module>> chargeHoraire = new HashMap<>();
+    private HashMap<String, ArrayList<Module>> chargeHoraire = new HashMap<>();
     private String dateInscription;
 
     public Doctorant(String nom,Integer numeroEtudiant,String email,String sujetThese,Professeur[] encadrant,Module[] cours,String dateInscription) {
@@ -134,7 +134,7 @@ public class Doctorant extends Etudiant implements Enseignant{
             int anneeInscription = Integer.parseInt(dateInscription);
             int date = Integer.parseInt(Date);
             if(anneeInscription <= date) {
-                if(chargeHoraire.containsKey(date)) {
+                if(chargeHoraire.containsKey(Date)) {
                     chargeHoraire.put(Date,nouvModules);
                     return true;
                 }else{

@@ -38,6 +38,16 @@ public class Semestre {
         }
         return chargeHoraireSemestre;
     }
+    public boolean searchModule(Module module) {
+        String libelle = module.getLibelle();
+        for(Module item : modules) {
+            if(item.getLibelle().equals(libelle)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
 
 

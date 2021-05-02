@@ -1,6 +1,9 @@
+import java.util.ArrayList;
+
 public class Etudiant extends Personne{
 
     private Integer numeroEtudiant;
+    private ArrayList<Module> modules;
 
     public Etudiant() {
         super("","");
@@ -25,7 +28,9 @@ public class Etudiant extends Personne{
         System.out.println("email = "+getEmail());
         System.out.println("---------------");
     }
-
+    public boolean addModule(Module module) {
+        return modules.add(module);
+    }
 
 
 

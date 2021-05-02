@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+
 public class UFR {
 
-    private Enseignant[] enseignants = new Enseignant[6]; // 23 profs et 8 doctorants
-    private Module[] modules = new Module[108];
+    private ArrayList<Enseignant> enseignants = new ArrayList<>();
+    private ArrayList<Module> modules= new ArrayList<>();
 
     public UFR() {
 
@@ -26,11 +28,20 @@ public class UFR {
         return chargeFinanciereVacations;
     }
 
-    public void setEnseignants(Enseignant[] enseignants) {
+    public void setEnseignants(ArrayList<Enseignant> enseignants) {
         this.enseignants = enseignants;
     }
 
-    public void setModules(Module[] modules) {
+    public void setModules(ArrayList<Enseignant> enseignants) {
         this.modules = modules;
     }
+
+    public Personne rechercheMembre(Personne p) {
+        if(enseignants.contains((Enseignant) p)) {
+            return p;
+        }else{
+            return null;
+        }
+    }
+
 }

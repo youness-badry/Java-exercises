@@ -1,8 +1,19 @@
 public class Test {
 
     public static void main(String[] args) {
-            UFR ufr = new UFR();
-
+            Professeur prof1 =new Professeur("LAJKI",100,"lajki@gmail.com","PA");
+            Formation f = new Formation("Genie Informatique",prof1);
+            Etudiant e1 = new Etudiant("Kamil anas",100,"kamil@gmail.com");
+            Etudiant e2 = new Etudiant("Dahbi Yassine",107,"dahbi@gmail.com");
+            Etudiant e3 = new Etudiant("Raki Imane",50,"raki@gmail.com");
+            Etudiant e4 = new Etudiant("Adab Youssef",27,"adab@gmail.com");
+            f.addEtudiant(e1);
+            f.addEtudiant(e2);
+            f.addEtudiant(e3);
+            f.addEtudiant(e4);
+            f.afficherEtudiantParOrdre();
+            f.afficherEtudiantParOrdreAlpha();
+            f.afficheEtudiant("107");
             //String nom, Integer numeroSomme, String email, String grade(PA, PH , PES)
             //String nom,Integer numeroEtudiant,String email,String sujetThese,Professeur[] encadrant,Module[] cours
             //Module(String libelle, Integer coefficient, Integer nbrHeuresCours, Integer nbrHeuresTD, Integer nbrHeuresTP, Professeur professeurEnseignant)
