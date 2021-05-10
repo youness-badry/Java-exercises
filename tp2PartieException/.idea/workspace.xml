@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7abc1d0-a5ab-44c4-a71a-85b1d7fd4f12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TP2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/Doctorant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/Enseignent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/Etudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/Personne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/Professeur.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/bin/UFR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/CompareByNomEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/CompareByNumEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Doctorant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Enseignent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Formation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/NumSemestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Professeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/Semestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/UFR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/src/UniteEnseignement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/tp2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompareByNomEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompareByNumEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doctorant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enseignent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErrGradeEncadrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErrGradeProf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Formation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumSemestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Professeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UFR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UniteEnseignement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp2PartieException.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sLYhnaVvOZ89UPYWribN6i0MCt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Youness\Desktop\Java-exercises\tp2PartieException\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="tp2PartieException" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7abc1d0-a5ab-44c4-a71a-85b1d7fd4f12" name="Default Changelist" comment="" />
+      <created>1620653460939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620653460939</updated>
+      <workItem from="1620653462800" duration="6943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
