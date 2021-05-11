@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7abc1d0-a5ab-44c4-a71a-85b1d7fd4f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TP2/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/Doctorant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/Enseignent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/Etudiant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/Module.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/Personne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/Professeur.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/bin/UFR.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/CompareByNomEtudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/CompareByNumEtudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Doctorant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Enseignent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Formation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Module.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/NumSemestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Professeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/Semestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/UFR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/src/UniteEnseignement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/tp2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompareByNomEtudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompareByNumEtudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctorant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enseignent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErrGradeEncadrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErrGradeProf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Formation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumSemestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Professeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Semestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UFR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UniteEnseignement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp2PartieException.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +35,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -124,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620653460939</updated>
-      <workItem from="1620653462800" duration="6943000" />
+      <workItem from="1620653462800" duration="7966000" />
     </task>
     <servers />
   </component>
