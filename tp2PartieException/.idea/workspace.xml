@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7abc1d0-a5ab-44c4-a71a-85b1d7fd4f12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/ExceptionAjoutPhase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/ExceptionAjoutTache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAnythingInJava/TestAnythingInJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/TestEdible.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEdible/src/com/test/testedible/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Consultant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Consultant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Etape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Etape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Phase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Phase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Projet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenProblemeGestionProjet/src/Tache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/src/UFR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/src/UFR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -46,17 +71,6 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="tp2PartieException" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,6 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620653460939</updated>
       <workItem from="1620653462800" duration="7966000" />
+      <workItem from="1621243891871" duration="107000" />
     </task>
     <servers />
   </component>
@@ -92,6 +107,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
