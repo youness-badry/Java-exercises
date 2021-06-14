@@ -1,7 +1,7 @@
 package Presentation;
 
-import Metier.Etudiant;
-import Metier.GestionnaireEtudiant;
+import Metier.*;
+import Metier.Module;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,11 +12,18 @@ public class Controleur {
     private Formulaire formulaire;
     private FenetreOptionTri fenetreOptionTri;
     private FenetreSupprimEtudiant fenetreSupprimEtudiant;
+    private FenetreListeModules fenetreListeModules;
+    private FenetreListeNotes fenetreListeNotes;
+    private FenetreAjouterNote fenetreAjouterNote;
     private GestionnaireEtudiant gestionnaireEtudiant;
+    private GestionnaireNote gestionnaireNote;
+    private GestionnaireModule gestionnaireModule;
 
 
     public Controleur() {
         this.gestionnaireEtudiant = new GestionnaireEtudiant();
+        this.gestionnaireModule = new GestionnaireModule();
+        this.gestionnaireNote = new GestionnaireNote();
         this.afficherFenetrePrincipal();
     }
     public void afficherFenetrePrincipal() {
@@ -30,6 +37,25 @@ public class Controleur {
         this.listeEtudiants = new ListeEtudiants(new ModelEtudiant(listeEtuds));
         listeEtudiants.setControleur(this);
         this.listeEtudiants.setVisible(true);
+    }
+    public void afficherListeModules() {
+        ArrayList<Object> listeModulesObject = gestionnaireModule.getAll();
+        ArrayList<Module> liste = (ArrayList<Module>)(ArrayList<?>)(listeModulesObject);
+        this.fenetreListeModules = new FenetreListeModules(new ModelModule(liste));
+        fenetreListeModules.setControleur(this);
+        this.fenetreListeModules.setVisible(true);
+    }
+    public void afficherListeNotes() {
+        ArrayList<Object> listeNotesObject = gestionnaireNote.getAll();
+        ArrayList<Note> liste = (ArrayList<Note>)(ArrayList<?>)(listeNotesObject);
+        this.fenetreListeNotes = new FenetreListeNotes(new ModelNote(liste));
+        fenetreListeNotes.setControleur(this);
+        this.fenetreListeNotes.setVisible(true);
+    }
+    public void afficherFenetreAjoutNote() {
+        fenetreAjouterNote = new FenetreAjouterNote();
+        fenetreAjouterNote.setControleur(this);
+        fenetreAjouterNote.setVisible(true);
     }
     public void afficherFenetreOptionTri() {
         fenetreOptionTri = new FenetreOptionTri();
@@ -67,7 +93,17 @@ public class Controleur {
         this.listeEtudiants.setVisible(false);
         this.afficherListeEtudiants();
     }
+    public void ajouterNote(Note note) {
+        gestionnaireNote.add(note);
+        fenetreAjouterNote.setVisible(false);
+    }
     public void setVisibleListeEtudiants(boolean b) {
         this.listeEtudiants.setVisible(b);
+    }
+    public void setVisibleListeModules(boolean b) {
+        this.fenetreListeModules.setVisible(b);
+    }
+    public void setVisibleListeNotes(boolean b) {
+        this.fenetreListeNotes.setVisible(b);
     }
 }

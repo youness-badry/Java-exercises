@@ -8,7 +8,6 @@ public class Etudiant implements Comparable{
     private String prenom;
     private String email;
     private String sexe;
-    private ArrayList<Module> modules;
 
     public Etudiant(Integer numero, String nom, String prenom, String email, String sexe) {
         this.numero = numero;
@@ -16,7 +15,6 @@ public class Etudiant implements Comparable{
         this.prenom = prenom;
         this.email = email;
         this.sexe = sexe;
-        this.modules = new ArrayList<>();
     }
 
     public String getNom() {
@@ -58,9 +56,7 @@ public class Etudiant implements Comparable{
     public void setSexe(String sexe) {
         this.sexe = sexe;
     }
-    public boolean addModule(Module module) {
-        return modules.add(module);
-    }
+
     @Override
     public int compareTo(Object o) {
         Etudiant e = (Etudiant) o;

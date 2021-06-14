@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38619ff7-6a3d-4f0c-a775-6e8640d13a72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projet_Java_Gestion_UFR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/DAO/ConnexionBD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/DAO/DAOEtudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/DAO/DAOFormation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/DAO/DAOModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/DAO/DAONote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/DAO/InterfaceDAOTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/Etudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/Formation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/GestionnaireEtudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/GestionnaireFormation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/GestionnaireModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/GestionnaireNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Metier/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/Controleur.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreAfficheNotesEtud$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreAfficheNotesEtud.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreAjouterNote$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreAjouterNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreGestionEtudiants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreGestionFormations$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreGestionFormations$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreGestionFormations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreGestionModules.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreGestionPersonnel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeEtudiants$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeEtudiants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeFormations$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeFormations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeModules$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeModules.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeNotes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreListeNotes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetrePrincipalApplication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetrePrincipalApplication$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetrePrincipalApplication$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetrePrincipalApplication$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetrePrincipalApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreSupprimEtudiant$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/FenetreSupprimEtudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/ModelEtudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/ModelFormation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/ModelModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/ModelNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Projet_Java_Gestion_UFR/Presentation/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/ConnexionBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/DAOEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/DAOFormation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/DAOModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/DAONote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/InterfaceDAOTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/Formation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/GestionnaireEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/GestionnaireFormation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/GestionnaireModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/GestionnaireNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metier/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/Controleur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreAfficheNotesEtud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreAjoutEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreAjoutFormation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreAjoutModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreAjouterNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreGestionEtudiants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreGestionFormations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreGestionModules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreGestionPersonnel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreListeEtudiants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreListeEtudiantsParOrdre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreListeFormations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreListeModules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreListeNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetrePrincipalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/FenetreSupprimEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/ModelEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/ModelFormation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/ModelModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/ModelNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presentation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/FenetreAjouterNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/FenetreListeModules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/FenetreListeNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/ModelModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_Tout/Test_Tout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/DAO/DAOEtudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/DAO/DAOEtudiant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/DAO/InterfaceDAOTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/DAO/InterfaceDAOTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/Etudiant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/GestionnaireModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/GestionnaireModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/GestionnaireNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/GestionnaireNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/Module.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/Module.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Metier/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/Controleur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/FenetrePrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/Formulaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/out/production/TP_Final_Java/Presentation/Formulaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAOEtudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAOEtudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAOModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAOModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAONote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAONote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/DAO/DAONoteEtudiantModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/GestionnaireModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/GestionnaireModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/GestionnaireNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/GestionnaireNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/GestionnaireNoteEtudiantModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Metier/NoteEtudiantModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/Controleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/FenetrePrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/FenetrePrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/Formulaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/Formulaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/ModelNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Final_Java/src/Presentation/ModelNote.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ttQJ4mCBwMH53L2MkzYC4YLAUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TP1-MH" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Youness\Desktop\Java-exercises\Projet_Java_Gestion_UFR\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Presentation.Test" />
+      <module name="Projet_Java_Gestion_UFR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38619ff7-6a3d-4f0c-a775-6e8640d13a72" name="Default Changelist" comment="" />
+      <created>1623585833512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623585833512</updated>
+      <workItem from="1623585835122" duration="12702000" />
+      <workItem from="1623625579291" duration="76000" />
+      <workItem from="1623656946961" duration="5974000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

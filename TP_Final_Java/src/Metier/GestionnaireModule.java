@@ -20,4 +20,7 @@ public class GestionnaireModule {
     public boolean add(Object module) {
         return daoModule.add(module);
     }
+    public boolean delete(Object libeleModule) {
+        return daoModule.delete(libeleModule);
+    }
 }

@@ -81,7 +81,7 @@ public class DAOEtudiant implements InterfaceDAOTable{
             String email;
             String sexe;
             while(resultat.next()){
-                numero = resultat.getInt("idEtudiant");
+                numero = resultat.getInt("numero");
                 nom = resultat.getString("nom");
                 prenom = resultat.getString("prenom");
                 email = resultat.getString("email");
@@ -118,7 +118,7 @@ public class DAOEtudiant implements InterfaceDAOTable{
             String email;
             String sexe;
             while(resultat.next()){
-                numero = resultat.getInt("idEtudiant");
+                numero = resultat.getInt("numero");
                 nom = resultat.getString("nom");
                 prenom = resultat.getString("prenom");
                 email = resultat.getString("email");

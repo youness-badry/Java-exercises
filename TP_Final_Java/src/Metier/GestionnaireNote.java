@@ -17,7 +17,7 @@ public class GestionnaireNote {
                 daoNote.getAll();
         return liste;
     }
-    public boolean add(Object module) {
-        return daoNote.add(module);
+    public boolean add(Object note) {
+        return daoNote.add(note);
     }
 }

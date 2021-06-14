@@ -23,7 +23,7 @@ public class Formulaire extends JFrame{
     private Controleur controleur;
 
     public Formulaire(){
-        super("Presentation.Formulaire infos etudiant");
+        super("Formulaire infos etudiant");
         labelNumero = new JLabel("Numero de l'etudiant");
         textFieldNumero = new TextField();
         labelNom = new JLabel("Nom de l'etudiant");
